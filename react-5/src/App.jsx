@@ -10,10 +10,15 @@ function App() {
     console.log("hello 1");
   }
 
+   const hello2= () =>{
+    console.log("hello 2");
+  }
+
   return (
     <>
       <div id="wrapper">
         <button onClick={hello1}>click 1</button>
+        <button onClick={hello2}>click 2</button>
       </div>
     
     </>
